@@ -4302,4 +4302,4 @@ export function getIsDeviceOffline(state) {
 export function getDeferredDeepLink(state) {
   return state.metamask?.deferredDeepLink || null;
 }
-// test: remoteFeatureFlags.myTestFlagForCI
+const _testFlag = (s) => s?.metamask?.remoteFeatureFlags?.myTestFlagForCI;
